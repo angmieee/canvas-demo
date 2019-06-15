@@ -46,7 +46,7 @@ if (document.body.ontouchstart !== undefined) {
     using = true
     var x = a.touches[0].clientX
     var y = a.touches[0].clientY
-    drawCircle(x, y, lineWidth / 2)
+
 
     //console.log(lastPoint.x,lastPoint.y)
     if (usingEraser) {
@@ -54,6 +54,7 @@ if (document.body.ontouchstart !== undefined) {
     } else {
       lastPoint.x = x
       lastPoint.y = y
+      drawCircle(x, y, lineWidth / 2)
     }
   }
 
@@ -87,7 +88,7 @@ if (document.body.ontouchstart !== undefined) {
     using = true
     var x = a.clientX
     var y = a.clientY
-    drawCircle(x, y, lineWidth / 2)
+
 
     //console.log(lastPoint.x,lastPoint.y)
     if (usingEraser) {
@@ -95,6 +96,7 @@ if (document.body.ontouchstart !== undefined) {
     } else {
       lastPoint.x = x
       lastPoint.y = y
+      drawCircle(x, y, lineWidth / 2)
     }
   }
 
