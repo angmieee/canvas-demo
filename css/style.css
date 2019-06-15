@@ -1,4 +1,4 @@
-#xxx{
+  #canvas{
     background: green;
     display: block;
   }
@@ -7,7 +7,7 @@
     margin: 0px;
   }
   
-  
+   
   .actions{
     position: fixed;
     bottom: 0;
