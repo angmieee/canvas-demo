@@ -12,6 +12,8 @@ ol,ul{
   padding: 0;
 }
 body{
+  position: fixed;
+  height: 100vh;
   overflow: hidden;
 }
 #canvas{
